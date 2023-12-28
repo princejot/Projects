@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+;
+}
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+.container {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+}
+.navbar {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  margin: 1% 15%;
+}
+.navbar .netflix-img img {
+  height: 40px;
+  width: 148px;
+}
+.side-buttons :nth-child(1) {
+  height: 32px;
+  width: 126px;
+  cursor: pointer;
+  margin: 0px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.516);
+  border: 1px solid #ffffff42;
+  padding-left: 10px;
+}
+.side-buttons :nth-child(2) {
+  height: 32px;
+  width: 77px;
+  cursor: pointer;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.layer {
+  background: #000000b7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  color: white;
+}
+.text {
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.text :nth-child(1) {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  max-width: 80%;
+}
+.text :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 00;
+  text-align: center;
+  max-width: 80%;
+}
+.text :nth-child(3) {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  max-width: 80%;
+}
+
+#any {
+  display: flex;
+}
+.text :nth-child(4) #email {
+  height: 100%;
+  width: 500px;
+  font-size: 17px;
+  font-weight: 300;
+  background-color: #0000007a;
+  border: 1px solid #ffffff59;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 20px;
+}
+.text :nth-child(4) #btn2 {
+  height: 100%;
+  width: 250px;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: #ff0000;
+  border: 1px solid #ffffff59;
+  padding-left: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-left: 20px;
+}
+.sepration {
+  height: 7px;
+  width: 100%;
+  background: #232323;
+}
+.section1 {
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  margin: auto;
+}
+.left-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.right-section img {
+  position: relative;
+  z-index: 5;
+}
+.right-section #video1 {
+  position: absolute;
+  margin: 100px -555px;
+}
+.right-section #video2 {
+  position: absolute;
+  margin: 40px -523px;
+  width: 400px;
+}
+.fnq {
+  width: 70vw;
+  display: flex;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.fnq h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 40px 0px 20px 0px;
+}
+.ques {
+  background-color: #2d2d2d;
+  width: 70%;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ques h2 {
+  padding-bottom: 28px;
+}
+.ques a {
+  text-decoration: none;
+  color: white;
+}
+.ques:hover {
+  background-color: #414141;
+}
+
+.fnq h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+#register #email {
+  height: 50px;
+  width: 500px;
+  font-size: 17px;
+  font-weight: 300;
+  background-color: #0000007a;
+  border: 1px solid #ffffff59;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+#register #btn2 {
+  height: 50px;
+  width: 250px;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: #ff0000;
+  border: 1px solid #ffffff59;
+  padding-left: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-bottom: 100px;
+}
+.footer {
+  color: white;
+  max-width: 80%;
+  margin: auto;
+}
+.griding {
+  display: flex;
+  gap: 100px;
+}
+.griding div {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.griding div a {
+  color: white;
+}
+.footer h3 {
+  margin-top: 20px;
+}
